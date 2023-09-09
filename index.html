@@ -1,66 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Law Office of Carol Perkins, LLC</title>
-    <style>
-        /* Add your CSS styles here */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #0047ab;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #0047ab;
-        }
-        /* Add more styles as needed */
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Law Office of Carol Perkins, LLC</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  .header, .nav, .hero, .section {
+    padding: 20px;
+  }
+  .header {
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  .nav {
+    display: flex;
+    justify-content: center;
+    background-color: #343a40;
+  }
+  .nav a {
+    color: #f8f9fa;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  .nav a:hover {
+    background-color: #495057;
+  }
+  .hero {
+    background-image: url('/mnt/data/302159268_480955974039634_4733561161342866546_n.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  .section {
+    margin-bottom: 20px;
+  }
+  .team .profile {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+  }
+  .team .profile img {
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-details div {
+    margin-bottom: 10px;
+  }
+</style>
 </head>
 <body>
-    <header>
-        <h1>Law Office of Carol Perkins, LLC</h1>
-    </header>
-    <div class="container">
-        <h2>About Us</h2>
-        <p>
-            Carol Perkins, the dedicated attorney at the helm of the Law Office of Carol Perkins, LLC, brings a rich and diverse background to her legal practice. Initially embarking on a career in education, Carol earned a bachelor's degree in elementary education with a kindergarten endorsement, followed by a master's degree in elementary education with a gifted and talented endorsement. In her mid-30s, a determined Carol pivoted to the field of law, pursuing and successfully obtaining a Juris Doctor degree from the prestigious University of Notre Dame. Since becoming licensed in 2000, she has built a reputation as a diligent and compassionate attorney, offering expert legal services in general law, probate law, guardianships, wills, and debt collection. Carol's deep understanding of the unique dynamics of each case, coupled with a commitment to safeguarding her clients' rights, has been a cornerstone of her practice. Leveraging her educational background, she approaches each case with a nurturing perspective, ensuring personalized and empathetic legal guidance. With a history of fostering justice and navigating complex legal landscapes, Carol Perkins stands as a beacon of trust and reliability in the legal sector. Her unwavering commitment to ethical practice and legal excellence makes her a sought-after attorney, ready to guide you through your legal journey with personalized solutions and resolute advocacy.
-        </p>
-        
-        <h2>Services</h2>
-        <ul>
-            <li>General Law</li>
-            <li>Probate Law</li>
-            <li>Guardianships</li>
-            <li>Wills</li>
-            <li>Debt Collection</li>
-        </ul>
-        
-        <h2>Contact Us</h2>
-        <p>
-            Phone: 309-857-5413
-            <br>
-            Email: <a href="mailto:cperkins@carolperkinslaw.com">cperkins@carolperkinslaw.com</a>
-            <br>
-            Office Address: 456 Fulton St, Suite 255, Peoria, IL
-        </p>
-        <footer>
-            <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
-        </footer>
+
+<div class="header">
+  <h1>The Law Office of Carol Perkins, LLC</h1>
+</div>
+
+<div class="nav">
+  <a href="#about">About Me</a>
+  <a href="#services">Services</a>
+  <a href="#team">Team</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<div class="hero">
+  <h2>Your Placeholder Headline</h2>
+  <p>Your placeholder subheadline.</p>
+</div>
+
+<div class="section" id="about">
+  <h2>About Me</h2>
+  <p>Carol Perkins, a general attorney licensed since 2000, holds a JD from Notre Dame. Apart from her prolific career, Carol is a proud mother of a freshman nursing major at Bradley University and the spouse of a dedicated writer and Uber driver.</p>
+</div>
+
+<div class="section" id="services">
+  <h2>Services</h2>
+  <ul>
+    <li>Family Law</li>
+    <li>Civil Litigation</li>
+    <li>Guardianship</li>
+    <li>Wills</li>
+    <li>Debt Collection</li>
+  </ul>
+</div>
+
+<div class="section team" id="team">
+  <h2>Meet the Team</h2>
+  <div class="profile">
+    <img src="/mnt/data/302159268_480955974039634_4733561161342866546_n.jpg" alt="Carol Perkins" width="100">
+    <div>
+      <h3>Carol Perkins</h3>
+      <p>Founder & Principal Attorney</p>
     </div>
+  </div>
+  <div class="profile">
+    <!-- Add Michelle's photo when available -->
+    <img src="path/to/michelle_photo.jpg" alt="Michelle" width="100">
+    <div>
+      <h3>Michelle</h3>
+      <p>Paralegal</p>
+    </div>
+  </div>
+</div>
+
+<div class="section" id="contact">
+  <h2>Contact Us</h2>
+  <div class="contact-details">
+    <div>Address: 456 Fulton St, Peoria, IL, Suite 255</div>
+    <div>Phone: 309-857-5413</div>
+    <div>Email: cperkins@carolperkinslaw.com</div>
+  </div>
+</div>
+
 </body>
 </html>
