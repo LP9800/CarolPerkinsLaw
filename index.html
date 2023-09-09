@@ -9,10 +9,10 @@
     font-family: Arial, sans-serif;
     margin: 0;
   }
-  .header, .nav, .hero, .section {
+  .header, .nav, .section, .footer {
     padding: 20px;
   }
-  .header {
+  .header, .footer {
     background-color: #f8f9fa;
     text-align: center;
   }
@@ -30,38 +30,32 @@
   .nav a:hover {
     background-color: #495057;
   }
-  .hero {
-    background-image: url('/mnt/data/302159268_480955974039634_4733561161342866546_n.jpg');
-    background-size: cover;
-    color: #fff;
-    text-align: center;
-    padding: 100px 20px;
-  }
   .section {
     margin-bottom: 20px;
   }
-  .team .profile {
-    display: flex;
-    align-items: center;
-    margin: 20px;
+  .section h2 {
+    text-decoration: underline;
   }
-  .team .profile img {
-    border-radius: 50%;
-    margin-right: 20px;
+  .section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .section ul li {
+    margin: 5px 0;
   }
   .contact-details {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .contact-details div {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .footer {
     text-align: center;
     padding: 20px;
     background-color: #f8f9fa;
     border-top: 1px solid #e7e7e7;
+  }
+  .footer p {
+    margin: 0;
+    color: #6c757d;
+    font-size: 0.875em;
   }
 </style>
 </head>
@@ -72,50 +66,66 @@
 </div>
 
 <div class="nav">
-  <a href="#about">About Me</a>
+  <a href="#home">Home</a>
+  <a href="#about">About Us</a>
   <a href="#services">Services</a>
-  <a href="#team">Team</a>
-  <a href="#contact">Contact</a>
+  <a href="#contact">Contact Us</a>
 </div>
 
-<div class="hero">
-  <h2>Your Placeholder Headline</h2>
-  <p>Your placeholder subheadline.</p>
+<div class="section" id="home">
+  <h2>Welcome</h2>
+  <p>Your welcome message here.</p>
+
+  <h2>Mission and Vision</h2>
+  <p>Your mission and vision statement here.</p>
+
+  <h2>Highlight of Services</h2>
+  <ul>
+    <li>Family Law</li>
+    <li>Estate Planning</li>
+    <li>Probate</li>
+    <!-- Add more as necessary -->
+  </ul>
+
+  <h2>Free 30-Minute Consultation</h2>
+  <p>Call to action message encouraging potential clients to schedule a free 30-minute consultation.</p>
 </div>
 
 <div class="section" id="about">
-  <h2>About Me</h2>
-  <p>Carol Perkins, a general attorney licensed since 2000, holds a JD from Notre Dame. Apart from her prolific career, Carol is a proud mother of a freshman nursing major at Bradley University and the spouse of a dedicated writer and Uber driver.</p>
+  <h2>About Us</h2>
+  <h3>Biography of Carol Perkins</h3>
+  <p>Detailing your biography here.</p>
+
+  <h3>Team Members</h3>
+  <p>Information about Michelle, your paralegal, and any other team members.</p>
+
+  <h3>Why Choose Us</h3>
+  <ul>
+    <li>Over two decades of experienced legal counsel</li>
+    <li>Personalized service tailored to individual circumstances</li>
+    <li>Free 30-minute consultation for potential new clients</li>
+    <li>Expertise in a wide range of legal areas</li>
+  </ul>
 </div>
 
 <div class="section" id="services">
   <h2>Services</h2>
+  <!-- List the various services under appropriate subheadings -->
+  <h3>Divorce</h3>
   <ul>
-    <li>Family Law</li>
-    <li>Civil Litigation</li>
-    <li>Guardianship</li>
-    <li>Wills</li>
-    <li>Debt Collection</li>
+    <li>Contested Divorce</li>
+    <li>Military Divorce</li>
+    <!-- Add more as necessary -->
   </ul>
-</div>
-
-<div class="section team" id="team">
-  <h2>Meet the Team</h2>
-  <div class="profile">
-    <img src="/mnt/data/302159268_480955974039634_4733561161342866546_n.jpg" alt="Carol Perkins" width="100">
-    <div>
-      <h3>Carol Perkins</h3>
-      <p>Founder & Principal Attorney</p>
-    </div>
-  </div>
-  <div class="profile">
-    <!-- Add Michelle's photo when available -->
-    <img src="path/to/michelle_photo.jpg" alt="Michelle" width="100">
-    <div>
-      <h3>Michelle</h3>
-      <p>Paralegal</p>
-    </div>
-  </div>
+  
+  <h3>Family Law</h3>
+  <ul>
+    <li>Adoption</li>
+    <li>Child Custody</li>
+    <!-- Add more as necessary -->
+  </ul>
+  
+  <!-- Continue with other service categories in a similar manner -->
 </div>
 
 <div class="section" id="contact">
@@ -125,6 +135,8 @@
     <div>Phone: 309-857-5413</div>
     <div>Email: cperkins@carolperkinslaw.com</div>
   </div>
+  
+  <!-- Add a contact form here -->
 </div>
 
 <div class="footer">
